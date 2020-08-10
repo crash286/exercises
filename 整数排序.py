@@ -1,8 +1,8 @@
 print("————————从小到大排序————————")
 number=[]                                  #建立空数组
-print("输入需要排序的五个数:")
+print("输入需要排序的七个数:")
 q=0
-while q<5:
+while q<7:
     a=float(input())                      #输入转化成浮点数
     number.append(a)                      #输入进入数组
     q+=1
