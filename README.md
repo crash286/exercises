@@ -1,0 +1,2 @@
+# exercises
+school exercises
