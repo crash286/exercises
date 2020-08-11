@@ -1,22 +1,22 @@
 print("————————从小到大排序————————")
 print("            欢迎           ")
-number=[]                                  #建立空数组
+number=[]                                  
 print("请输入需要排序的七个数:")
-q=0
-while q<7:
-    a=float(input())                      #输入转化成浮点数
-    number.append(a)                      #输入进入数组
-    q+=1
-j=0
-while j<=len(number)-2:
-    i=0
-    while i<len(number)-1:
-        if number[i]>number[i+1]: 
-            temp=number[i]                #交换数组顺序
-            number[i]=number[i+1]
-            number[i+1]=temp
-        i+=1
-    j+=1
+count=0
+while count<7:
+    initial_input=float(input())                      
+    number.append(initial_input)                      
+    count+=1
+rounds=0
+while rounds<=len(number)-2:
+    times=0
+    while times<len(number)-1:
+        if number[times]>number[times+1]: 
+            temp=number[times]                
+            number[times]=number[times+1]
+            number[times+1]=temp
+        times+=1
+    rounds+=1
 print("排序结果:")
 print(number)
 
